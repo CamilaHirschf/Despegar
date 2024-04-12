@@ -26,7 +26,7 @@ def search_in_repository(path_repository):
             search_matches(file_path, gpat_regex, f"{GRAY}Token de Acceso Personal Github{RESET}")
 
 # Cambiar 'ruta/a/tu/proyecto' por la ruta real de tu proyecto local de GitHub Ej: 'C:/Users/User/Documentos/Despegar'
-search_in_directory = 'C:/Users/gimen/OneDrive/Documentos/Despegar/Despegar'
+search_in_directory = 'ruta/a/tu/proyecto'
 search_in_repository(search_in_directory)
 
 
